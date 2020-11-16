@@ -1,0 +1,162 @@
+* {
+    box-sizing: content-box;
+  }
+
+body {
+    font-family: opensans-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.teste {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.corpoDoCabecalho{
+    width: 1300px;
+    height: 103px;
+    margin:auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemMenu {
+    margin:5px;
+    padding: 5px;    
+}
+
+.menu {
+    width: 50%;
+}
+
+.logo {
+    width: 95px;
+}
+
+.g1 {
+    color: #a80000;
+}
+.ge {
+    color: #06aa48;
+}
+.gshow {
+    color: #ff7f00;
+}
+.tech {
+    color: #898989;
+}
+.videos {
+    color: #0669de;
+}
+
+.menuEsquerdo {
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+.menuDireito {
+    font-weight: 100;
+    font-size: 12px;
+    color: #898989;
+    text-transform: uppercase;
+}
+
+.divPesquisa{
+    display: flex;
+    align-items: center;
+    border: 1px solid #898989;
+    border-radius: 3px;
+}
+
+.pesquisa {
+    width: 234px;
+    height: 38px;
+    border: none;
+}
+
+.lupa {
+    width: 14px;
+    height: 14px;
+    padding: 10px;
+}
+
+.headEleicoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+
+.bodyEleicoes {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.vermelho {
+    color: #c4170c;
+}
+
+.containerProgresso {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ width: 7%;
+
+}
+
+.progresso {
+  height: 20px; 
+  width: 5px; 
+  background-color: #bfedd2;
+  margin-right: 2px;
+}
+
+.divAtualizando {
+    margin-left: 10px;
+}
+
+.atualizando {
+    text-transform: lowercase;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.p1 {
+    animation-name: efeito;
+    animation-duration: 1020ms;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.p2 {
+    animation-name: efeito;
+    animation-duration: 1030ms;;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.p3 {
+    animation-name: efeito;
+    animation-duration: 1040ms;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes efeito {
+    0% {height: 9px;width:3px;}
+    100% {height: 13px;width:3px;background-color: #51e28d;}
+}
+
+
+
+
