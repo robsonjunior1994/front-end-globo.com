@@ -379,6 +379,11 @@ body {
     justify-content: space-around;
 }
 
+.linha {
+    width: 1px;
+    background-color:  #c8c8c8;
+}
+
 .ultimaNoticiasDireitaDiv {
     display: flex;
     flex-direction: column;
